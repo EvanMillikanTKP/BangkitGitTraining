@@ -5,13 +5,7 @@ BangkitGitTraining is a repository purposefully built to teach students how to u
 # Step by Step Guide
 
 ## **Step 1** 
-Start by forking this repository by clicking the fork button on the upper right corner of the screen. 
-
-!TODO: add image fork
-
-This should automatically create your own version of the repository within your account. 
-
-!TODO: add name
+Start by forking this repository by clicking the fork button on the upper right corner of the screen. This should automatically create your own version of the repository within your account. 
 
 Then clone the repository by clicking the `[Code]` button and copying the https url. 
 Go to git bash and write the command
@@ -28,7 +22,7 @@ I have prepared a simple quiz for you to complete. But first, within the src fol
 
 After you have completed the `quiz.py` it is time to push your changes to github. Go to your folder by doing 
 ```
-cd src/firstname_last_name_bangkitcode 
+cd src/[firstname_last_name_bangkitcode]
 ```
 in git bash. Then do the command
 ```
@@ -44,7 +38,7 @@ git commit -m "[Input your message here]"
 ```
 Make sure you message is clear and explain what you have done. Also, git commit message should be longer than 10 words so as to not overflow your commit message into the description. Lastly, perform
 ```
-git push origin master
+git push origin [main]
 ```
 To push your changes into the master branch of your forked repo.
 
